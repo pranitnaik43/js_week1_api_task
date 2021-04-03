@@ -1,0 +1,19 @@
+Give a write-up on the Difference between copy by value and copy by reference.
+
+Copy By value
+1. When we assign a primitive variable to another variable, it is called copy by value.
+2. eg:
+var a = 23;
+var b = a;
+3. In the above example, the value of variable 'a' is copied to variable 'b'.
+4. Changing value of variable 'a', won't affect the value of variable 'b' and vice versa.
+
+
+Copy by reference
+1. When we assign a reference variable to another variable, it is called copy by reference.
+2. eg:
+var p = [1, 2, 3];
+var q = p;
+3. In the above example, reference of the object (refered to by 'p') is copied to variable q. 
+That is, both variable p and q refer to the same object in the memory.
+4. If we modify one variable(Let's say q), the same changes reflect for the other variable(q).
